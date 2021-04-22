@@ -22,3 +22,4 @@ predictive.onReady.then(() => {
 # TODO
 1. Dicionary Selector
 2. ADD other dictionaries
+3. ADD Custom words
