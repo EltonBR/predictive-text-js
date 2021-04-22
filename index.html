@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="src/PredictiveText.js"></script>
+    <script>
+        var predictive = new PredictiveText();
+        predictive.onReady.then(() => {
+            console.log(predictive.getWords("2222294"));
+            console.log(predictive.getWords("262"));
+            console.log(predictive.getWords("2222283"));
+        });
+    </script>
+</head>
+
+<body>
+    open the console
+</body>
+
+</html>
